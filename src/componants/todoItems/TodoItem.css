@@ -1,0 +1,27 @@
+/* Todo Item Container */
+.todo-item {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    padding: 10px;
+  
+    margin-top: 20px;
+    background-color: #eeeeee;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    min-width:350px;
+    max-height: 40px;
+}
+
+/* Checkbox */
+.todo-item .checkbox {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* Label */
+.todo-item label {
+    font-size: 1rem;
+    color: #333;
+    margin-left: 10px;
+}
